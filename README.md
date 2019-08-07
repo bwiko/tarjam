@@ -1,4 +1,5 @@
-# tarjam
+# tarjam {align=center}
 
-## DESCRIPTION : 
-   a free tool using hover to translate into arabic or from any language to english 
+A Free tool using hover to translate into arabic or from any language to english 
+
+
