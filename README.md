@@ -1,4 +1,4 @@
- <h1 style="text-align: center;">Tarjam 1</h1> 
+ # Tarjam 
 
 
 A Free tool to translate from english into arabic or from any language to english using the hover 
