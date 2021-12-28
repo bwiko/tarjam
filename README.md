@@ -20,6 +20,8 @@ Tarjam uses [trans](https://github.com/soimort/translate-shell) tool for transla
      <img src="./img/6.png" alt="logo" width="340" height="650"/><br>
   6. #### final result :
      <img src="./img/7.png" alt="logo" width="340" height="120"/><br>
+  7. #### demo : 
+     <img src="./img/7.png" alt="logo" width="340" height="120"/><br>
  ### Note: this work on `xfce` you need to search on others 
 ### what need this tools : 
 
