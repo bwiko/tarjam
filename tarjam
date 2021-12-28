@@ -1,0 +1,24 @@
+#!/usr/bin/bash 
+while getopts eas flag
+do
+    case "${flag}" in
+        e)  option="1";;
+        a)  option="2";;
+        s) option="3";;
+		
+    esac
+done
+
+text_clips=$(xclip -o |tr -d '\n')
+text_clips2=$(echo -n "$text_clips")
+#notify-send 'test' "$text_clips2"
+if [[ $option -eq "1" ]]; then
+	translat_lang=$(trans --brief :en "$text_clips2" | strings)
+	notify-send 'Translator مطرجم' "$translat_lang"
+elif [[ $option -eq "2" ]]; then
+	translat_lang=$(trans --brief :ar "$text_clips2" | rev)
+	notify-send 'Translator مطرجم' "$translat_lang"
+elif [[ $option -eq "3" ]]; then
+	trans -speak "$text_clips" 
+
+fi
